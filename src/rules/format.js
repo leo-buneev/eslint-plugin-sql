@@ -117,6 +117,14 @@ export default {
             default: false,
             type: 'boolean',
           },
+          functionCase: {
+            default: 'unchanged',
+            enum: ['unchanged', 'lowercase', 'uppercase', 'capitalize'],
+          },
+          keywordCase: {
+            default: 'unchanged',
+            enum: ['unchanged', 'lowercase', 'uppercase', 'capitalize'],
+          },
           noRcFile: {
             default: false,
             type: 'boolean',
